@@ -1,0 +1,2 @@
+0	0	1	1024	683	1	0	[Image]\\Cake.jpg
+1	1	1	79	99	0	1	[Image]\\Cake2.jpg

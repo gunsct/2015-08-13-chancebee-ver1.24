@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CreateDevice">
+      <UniqueIdentifier>{b892dfcd-0d4f-412b-8f3d-8108ff69dc36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7f55e2a8-56ee-427c-84a5-4dcbe9813bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{f25b4a88-dddf-4447-818b-339b62616b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateDevice\Render">
+      <UniqueIdentifier>{ee7ce31d-6cea-4408-bbd3-b0621a4410d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateDevice\Camera">
+      <UniqueIdentifier>{259ea2cd-6c87-4156-ab83-5863726366ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateDevice\Control_Device">
+      <UniqueIdentifier>{62469b8c-f8a2-4623-9cfa-c7a938153e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateDevice\FPS">
+      <UniqueIdentifier>{89b8b8fe-d023-4d37-a8dd-f601c60e9e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{9542356a-1520-4eaa-a715-63f48497c3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Character">
+      <UniqueIdentifier>{cfba9fae-681d-445e-92e2-1c461f898076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Character\Entity">
+      <UniqueIdentifier>{2508fec2-cb0b-4714-bd4d-6d9b83da9d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Character\Char_ChanceBee">
+      <UniqueIdentifier>{74d52d6e-1fbd-4e8e-9c90-7ee95f59714c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene_Manager">
+      <UniqueIdentifier>{172deca8-45c3-460d-9382-6e1571f6d7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene_Manager\Menu">
+      <UniqueIdentifier>{27d1d4b9-df66-4804-88f7-ebe357763cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateDevice\Sound">
+      <UniqueIdentifier>{f3492a20-b929-4802-a5e1-58a3fc14a8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene_Manager\Map">
+      <UniqueIdentifier>{2388301c-5d08-4f0b-a30d-e8a0d52c46d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Character\Sprite">
+      <UniqueIdentifier>{9414963a-b816-43ae-8b0c-2279031543ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene_Manager\Battle">
+      <UniqueIdentifier>{954ae2d2-b3a2-45b5-b58b-7ef77aafc468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene_Manager\UI">
+      <UniqueIdentifier>{7d7856b7-999f-4070-b6ba-6dd8fd647f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene_Manager\UI\UI_Map">
+      <UniqueIdentifier>{84b71362-86a6-4d71-938c-3bd8349d2afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene_Manager\UI\UI_Battle">
+      <UniqueIdentifier>{7290160f-9d38-4b09-8940-1f5d546cd51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene_Manager\UI\UI_Text">
+      <UniqueIdentifier>{239e5d20-4687-454e-9017-58461384eab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene_Manager\Intro">
+      <UniqueIdentifier>{0abdca47-0599-493d-8f6e-6ea78a138c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy">
+      <UniqueIdentifier>{f5e573c4-20f0-418b-a172-0316ca1113ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Skill">
+      <UniqueIdentifier>{19f75827-2f80-4e35-bf7b-27407b253c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateDevice\Timer">
+      <UniqueIdentifier>{f6b667a5-e31b-476a-91ea-c1f2eb7af2f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="[Device]\Camera.cpp">
+      <Filter>CreateDevice\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="[Device]\D3Ddevice.cpp">
+      <Filter>CreateDevice\Control_Device</Filter>
+    </ClCompile>
+    <ClCompile Include="[Device]\InitDevice.cpp">
+      <Filter>CreateDevice\Control_Device</Filter>
+    </ClCompile>
+    <ClCompile Include="[Device]\Render.cpp">
+      <Filter>CreateDevice\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Character]\Char_ChanceBee.cpp">
+      <Filter>Game\Character\Char_ChanceBee</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Character]\Entity.cpp">
+      <Filter>Game\Character\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Scene]\Menu.cpp">
+      <Filter>Game\Scene_Manager\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Scene]\Menu_Scene.cpp">
+      <Filter>Game\Scene_Manager\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Scene]\Scene_Manager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="[Device]\FPS.cpp">
+      <Filter>CreateDevice\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="[Device]\[Sound]\Sound.cpp">
+      <Filter>CreateDevice\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Scene]\Map.cpp">
+      <Filter>Game\Scene_Manager\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Scene]\Map_Scene.cpp">
+      <Filter>Game\Scene_Manager\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Scene]\Battle_Scene.cpp">
+      <Filter>Game\Scene_Manager\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Scene]\Battle.cpp">
+      <Filter>Game\Scene_Manager\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Character]\Sprite.cpp">
+      <Filter>Game\Character\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="[Device]\FileLoader.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Scene]\Map_Scene_Dynamic.cpp">
+      <Filter>Game\Scene_Manager\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Character]\B_Char_ChanceBee.cpp">
+      <Filter>Game\Character\Char_ChanceBee</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[UI]\UI_Manager.cpp">
+      <Filter>Game\Scene_Manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[UI]\UI_Battle.cpp">
+      <Filter>Game\Scene_Manager\UI\UI_Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[UI]\UI_Map.cpp">
+      <Filter>Game\Scene_Manager\UI\UI_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[UI]\UI_File_Loader.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\Collider.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[UI]\UI_Text.cpp">
+      <Filter>Game\Scene_Manager\UI\UI_Text</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Scene]\Intro.cpp">
+      <Filter>Game\Scene_Manager\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Character]\Skill.cpp">
+      <Filter>Game\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[Character]\B_Enemy.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="[Game]\[UI]\UI_Text_Battle.cpp">
+      <Filter>Game\Scene_Manager\UI\UI_Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="[Device]\timer.cpp">
+      <Filter>CreateDevice\Timer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="[Device]\Camera.h">
+      <Filter>CreateDevice\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="[Device]\D3Ddevice.h">
+      <Filter>CreateDevice\Control_Device</Filter>
+    </ClInclude>
+    <ClInclude Include="[Device]\Render.h">
+      <Filter>CreateDevice\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="[Device]\Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Character]\Char_ChanceBee.h">
+      <Filter>Game\Character\Char_ChanceBee</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Character]\Entity.h">
+      <Filter>Game\Character\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Scene]\Menu.h">
+      <Filter>Game\Scene_Manager\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Scene]\Menu_Scene.h">
+      <Filter>Game\Scene_Manager\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Scene]\Scene_Manager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="[Device]\FPS.h">
+      <Filter>CreateDevice\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="[Device]\[Sound]\Sound.h">
+      <Filter>CreateDevice\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Scene]\Map_Scene.h">
+      <Filter>Game\Scene_Manager\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Scene]\Map.h">
+      <Filter>Game\Scene_Manager\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Scene]\Battle_Scene.h">
+      <Filter>Game\Scene_Manager\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Scene]\Battle.h">
+      <Filter>Game\Scene_Manager\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Character]\Sprite.h">
+      <Filter>Game\Character\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="[Device]\FileLoader.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Scene]\Map_Scene_Dynamic.h">
+      <Filter>Game\Scene_Manager\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Character]\B_Char_ChanceBee.h">
+      <Filter>Game\Character\Char_ChanceBee</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[UI]\UI_Manager.h">
+      <Filter>Game\Scene_Manager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[UI]\UI_Battle.h">
+      <Filter>Game\Scene_Manager\UI\UI_Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[UI]\UI_Map.h">
+      <Filter>Game\Scene_Manager\UI\UI_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[UI]\UI_File_Loader.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Character]\Character.h">
+      <Filter>Game\Character\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="[Device]\Define.h">
+      <Filter>CreateDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\Collider.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[UI]\UI_Text.h">
+      <Filter>Game\Scene_Manager\UI\UI_Text</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Scene]\Intro.h">
+      <Filter>Game\Scene_Manager\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Character]\Skill.h">
+      <Filter>Game\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[Character]\B_Enemy.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="[Game]\[UI]\UI_Text_Battle.h">
+      <Filter>Game\Scene_Manager\UI\UI_Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="[Device]\timer.h">
+      <Filter>CreateDevice\Timer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

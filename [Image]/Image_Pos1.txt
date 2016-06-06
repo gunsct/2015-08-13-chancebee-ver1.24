@@ -1,0 +1,6 @@
+순서	타입	타입종류x	y	v.lx	v.rx	v.uy	v.dy	이미지(x,y)	이미지경로
+13	13	13	13	0	0	0	3	5	-1	1	2	1	1094	1955	[Image]\\Map_Chance_Mi_Jung.png
+12	13	 0	13	0	0	0	1	6	-1	1	2	1	1177	1251	[Image]\\Map_EEVEE.png
+ 7	 7	 7	 7	0	0	0	-2	-3	-1	1	2	1	1488	1328	[Image]\\Map_Golram.png
+ 7	 7	 7	 7	0	0	0	-2	-5	-1	1	2	1	2048	2048	[Image]\\Map_Mongkey.png
+23	23	23	23	0	3	0	0	0	0	0	0	0	3281	1955	[Image]\\Map_Chance_Mi_Jung_animation.png

@@ -1,0 +1,25 @@
+순서	타입	타입종류x	y	v.lx	v.rx	v.uy	v.dy	이미지(x,y)	이미지경로
+0	3	0	0	0	0	0	0	0	944	2288	[Image]\\Map_Chance_Mi_Jung_animation.png
+0	0	0	3	8	-1	0	2	1	1094	1955	[Image]\\Map_Chance_Mi_Jung.png
+0	0	0	1	10	-1	0	2	1	1177	1251	[Image]\\Map_EEVEE.png
+0	0	0	3	-3	-1	0	2	1	1488	1328	[Image]\\Map_Golram.png
+0	0	0	-3	-5	-1	0	2	1	2048	2048	[Image]\\Map_Mongkey.png
+0	0	0	-3	-4	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	-3	-3	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	-3	-2	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	-3	-1	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	-3	0	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	-3	1	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	-3	2	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	-3	3	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	-2	3	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	-1	3	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	0	3	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	1	3	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	2	3	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	3	3	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	4	3	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	5	3	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	6	3	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	0	0	7	3	-1	1	2	0	400	300	[Image]\\Map_Wall.png
+0	1	0	5	5	-1	1	2	0	800	638	[Image]\\tresure.jpg
